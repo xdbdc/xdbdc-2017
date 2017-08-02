@@ -24,6 +24,7 @@ body:before{
 	right:0;
 	background:url(../image/bg.jpg) center 0 no-repeat;
 	background-size:cover;
+	background-position-y:50%;
 }
 .clear{
 		clear:both;
