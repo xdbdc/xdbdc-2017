@@ -61,8 +61,8 @@ $("#sub").click(function(){
 	var email = $("#email").val();
 	var choose = $("#choose").val();
 	var about = $("#aboutYou").val();
-	if(checkName(name) && checkTel(tel) && checkEmail(email) && checkAbout(about)){
-		$.post("https://119.29.249.88/reg",
+	//if(checkName(name) && checkTel(tel) && checkEmail(email) && checkAbout(about)){
+		$.post("https://119.29.249.88:18081/reg",
 		{
 			name : name,
 			tel : tel,
@@ -86,7 +86,7 @@ $("#sub").click(function(){
 				$(".errbox").delay(2500).fadeOut(300);
 				console.log("Status: " + status);
 		});
-	}
+//	}
 		
 });
 function checkName(name){
