@@ -62,7 +62,7 @@ $("#sub").click(function(){
 	var choose = $("#choose").val();
 	var about = $("#aboutYou").val();
 	if(checkName(name) && checkTel(tel) && checkEmail(email) && checkAbout(about)){
-		$.post("http://119.29.249.88/reg",
+		$.post("https://119.29.249.88/reg",
 		{
 			name : name,
 			tel : tel,
